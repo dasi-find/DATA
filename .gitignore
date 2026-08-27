@@ -1,0 +1,33 @@
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Generated datasets and downloaded images
+data/*
+!data/README.md
+images/*
+!images/README.md
+
+# Logs and local databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
